@@ -1,0 +1,15 @@
+
+O
+java:S18542"9Remove this useless assignment to local variable "kopia".(§â¿
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Á·§åûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(³¦ÆÁıÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ã¯©İ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(µ„ò
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÁ«Ç
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(·êÿå
+M	java:S106$"9Replace this use of System.out or System.err by a logger.(æíá
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(»Û˜º
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(õÖ¼¿şÿÿÿÿ
+Q	java:S125,"<This block of commented-out lines of code should be removed.(šßæù
+@
+java:S14812"*Remove this unused "kopia" local variable.(§â¿

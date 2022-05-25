@@ -1,0 +1,25 @@
+
+\
+java:S1192"FDefine a constant instead of duplicating this literal "67888" 5 times.(‰çİÉ
+\
+java:S1192!"FDefine a constant instead of duplicating this literal "67889" 3 times.(„ô³Õ
+k
+java:S1192"VDefine a constant instead of duplicating this literal "czy jest na liÅ›cie: " 5 times.(áİçx
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ì©™ã
+`
+java:S1854'"ERemove this useless assignment to local variable "czyZostalUsuniety".(ü‰‡åøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ù²¤•
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŸíÊ‘
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñå²†ÿÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(áİçx
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ë¯º‰şÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(„ô³Õ
+Q
+java:S1481'"6Remove this unused "czyZostalUsuniety" local variable.(ü‰‡åøÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(äğÅøÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(Ë¯º‰şÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(„ô³Õ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(·ªğøÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(§ÏÜÄ
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(µĞüØ

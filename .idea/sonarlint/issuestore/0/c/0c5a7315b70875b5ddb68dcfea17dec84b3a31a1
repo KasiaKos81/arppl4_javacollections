@@ -1,0 +1,9 @@
+
+u
+java:S14881"_Immediately return this expression instead of assigning it to the temporary variable "srednia".(¬‰·
+S	java:S106"9Replace this use of System.out or System.err by a logger.(êº¸ƒøÿÿÿÿ
+D
+java:S5413")Verify that "remove()" is used correctly.(ÙÜŠ¹ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(«Ÿ…¸üÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(«Ú¯Øıÿÿÿÿ
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(„íí
