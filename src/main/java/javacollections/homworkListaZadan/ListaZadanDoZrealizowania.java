@@ -58,6 +58,7 @@ public class ListaZadanDoZrealizowania {
            }
        }
    }
+   // oznaczanie jako zrealizowane
        public void oznaczJakoZrealizowane(String nazwa){
            for (Zadanie zadanieNaLiscie : lista) {
                if(zadanieNaLiscie.getNazwa().equals(nazwa)){
