@@ -29,8 +29,6 @@ d
 4src/main/java/javacollections/homework/Dziennik.java,0\c\0c5a7315b70875b5ddb68dcfea17dec84b3a31a1
 o
 ?src/main/java/javacollections/zadanieZKoszykiem/MainKoszyk.java,a\9\a9c8bce0bd214a3296657c2ec7392881e7836cbb
-f
-6src/main/java/javacollections/ZadanieZAutem/Garaz.java,c\d\cda9989a329a7be68a3a224defba7063e212f2b4
 j
 :src/main/java/javacollections/ZadanieZAutem/MainGaraz.java,3\4\3436f4922c562acb95a3e310c84495937ddfdfb2
 o

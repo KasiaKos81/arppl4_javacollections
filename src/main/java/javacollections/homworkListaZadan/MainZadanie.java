@@ -13,6 +13,7 @@ public class MainZadanie {
         listaZadan.dodajZadanie(new Zadanie("wlosyFarba", "farbowanieWlosow"));
         listaZadan.dodajZadanie(new Zadanie("hybryda", "malowaniePazurkow"));
         listaZadan.dodajZadanie(new Zadanie("makeup", "rysowanieTwarzy"));
+        listaZadan.dodajZadanie(new Zadanie("szpilki", "kupSzpilki"));
 
         // szukanie zadanie po pełnej nazwie
 
@@ -27,7 +28,7 @@ public class MainZadanie {
 
         System.out.println("------------------");
         Optional<Zadanie> wynik = listaZadan.zwrocZadanaPoPelnejNazwie("hybryda");
-        if(wynik.isPresent()){
+        if (wynik.isPresent()) {
             System.out.println("udało się znalezc zadanie: " + wynik);
         } else {
             System.out.println("nie udalo sie znalezc zadania");
@@ -37,15 +38,20 @@ public class MainZadanie {
 
         System.out.println("-------------------------");
         Optional<Zadanie> toCoWyszlo = listaZadan.zwrocZadaniePoFrazie("wlosy");
-        if(toCoWyszlo.isPresent()){
+        if (toCoWyszlo.isPresent()) {
             System.out.println("wyszło zadanie: " + toCoWyszlo);
         } else {
             System.out.println("gowno znalazl");
         }
-        // usuwanie zadania
-        listaZadan.usunZadanie("makeup");
 
+        // usuwanie zadania
+      listaZadan.usunZadanie("szpilki");
+
+        System.out.println("-----------------------------");
+        // oznaczanie jako zrealizowane
         listaZadan.oznaczJakoZrealizowane("makeup");
+
+    listaZadan.wypiszZrealizowane();
     }
 
 
