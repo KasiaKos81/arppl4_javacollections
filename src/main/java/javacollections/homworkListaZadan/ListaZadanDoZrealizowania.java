@@ -43,7 +43,6 @@ public class ListaZadanDoZrealizowania {
         }
         return Optional.empty();
     }
-
     // zwróć zadanie po szukanej frazie, która może być częścią nazwy
     public Optional<Zadanie> zwrocZadaniePoFrazie(String szukanaFraza) {
         for (Zadanie zadanieNaLiscie : lista) {
@@ -53,9 +52,6 @@ public class ListaZadanDoZrealizowania {
         }
         return Optional.empty();
     }
-
-
-
     // usuwanie zadania
    public void usunZadanie(String nazwa) {
         for (Zadanie zadanieNaLiscie : lista) {
@@ -65,7 +61,6 @@ public class ListaZadanDoZrealizowania {
             }
         }
     }
-
     // oznaczanie jako zrealizowane
     public void oznaczJakoZrealizowane(String nazwa) {
         for (Zadanie zadanieNaLiscie : lista) {
@@ -79,10 +74,25 @@ public class ListaZadanDoZrealizowania {
                 if(zadanieNaLiscie.getStan().equals(Zrealizowane.TAK)){
                     System.out.println("zadanie zreaizowane " + zadanieNaLiscie);
                 }
-
             }
-
         }
+        public void wypiszNiezrealizowane(){
+            for (Zadanie zadanieNaLiscie : lista) {
+                if(zadanieNaLiscie.getStan().equals(Zrealizowane.NIE)){
+                    System.out.println("zadania niezrealizowane: " + zadanieNaLiscie);
+                }
+            }
+        }
+        public List<Zadanie> zwrocListeNiezrealizowanych(){
+        List<Zadanie> listaNiezrealizowanych = new ArrayList<>();
+            for (Zadanie zadanieNaLiscie : lista) {
+                if(zadanieNaLiscie.getStan().equals(Zrealizowane.NIE)){
+                    listaNiezrealizowanych.add(zadanieNaLiscie);
+                }
+            }
+            return listaNiezrealizowanych;
+        }
+
 }
 
 

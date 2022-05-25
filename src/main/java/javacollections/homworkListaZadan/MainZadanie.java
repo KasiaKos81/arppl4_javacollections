@@ -45,15 +45,20 @@ public class MainZadanie {
         }
 
         // usuwanie zadania
-      listaZadan.usunZadanie("szpilki");
+        listaZadan.usunZadanie("szpilki");
 
         System.out.println("-----------------------------");
         // oznaczanie jako zrealizowane
         listaZadan.oznaczJakoZrealizowane("makeup");
 
-    listaZadan.wypiszZrealizowane();
-    }
+        listaZadan.wypiszZrealizowane();
 
+        listaZadan.wypiszNiezrealizowane();
+
+        System.out.println("----------------------");
+        System.out.println("jak sie uda to zwroci liste :)");
+        listaZadan.zwrocListeNiezrealizowanych();
+    }
 
 
 }
