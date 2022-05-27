@@ -8,15 +8,20 @@ public class MainKalkulator {
 
         Scanner scanner = new Scanner(System.in);
         Kalkulator kalkulator = new Kalkulator();
+        Double wynik = null;
 
+        do {
+            System.out.println("podaj działanie: dodaj, odejmij, pomnoz, podziel, zwrocWynik");
+            String dzialanie = scanner.next();
+            if("zwrocWynik".equalsIgnoreCase(dzialanie)){
+                System.out.println("poprzedni wynik to " + kalkulator.zwrocWynikOstatniegoDzialania());
+                break;
+            }
         System.out.println("podaj pierwszą liczbę");
         double liczba1 = scanner.nextDouble();
         System.out.println("podaj drugą liczbę");
         double liczba2 = scanner.nextDouble();
-        System.out.println("podaj działanie: dodaj, odejmij, pomnoz, podziel, zwrocWynik");
-        String dzialanie = scanner.next();
 
-        Double wynik = null;
         switch(dzialanie) {
             case "dodaj":
                 wynik = kalkulator.dodaj(liczba1, liczba2);
@@ -37,11 +42,10 @@ public class MainKalkulator {
                 break;
             default:
                 System.out.println("Niepoprawna komenda");
-
-        }
-        if(wynik != null){
-            System.out.println("Wynik= " + wynik);
         }
 
-    }
-}
+        }while(wynik != null);{
+            System.out.println("Wynik = " + wynik);
+
+
+}}}
