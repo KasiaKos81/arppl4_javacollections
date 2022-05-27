@@ -28,14 +28,11 @@ public class MainKalkulator {
                 wynik = kalkulator.pomnoz(liczba1, liczba2);
                 break;
             case "podziel":
-                try { // obsługa wyjątków, blok kodu w którym może wystapic bład
+                try {
                     wynik = kalkulator.podziel(liczba1, liczba2);
-
                     System.out.println("Wynik = " + wynik);
                 } catch(ArithmeticException nazwaZmiennejWyjatku) {
-                    // catch -> blok który wywoła sie jesli wystapi błąd i go złapiemy
                     System.out.println("Nie można dzielic przez zero");
-
                 }
                 break;
             default:
