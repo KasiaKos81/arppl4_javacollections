@@ -43,8 +43,6 @@ v
 Fsrc/main/java/javacollections/homework/Zadanie5OpcjaZLekcji/Plec1.java,1\d\1d9bc8e611d59147bba4a664121eb3fa3b522a1c
 x
 Hsrc/main/java/javacollections/homework/Zadanie5OpcjaZLekcji/Student.java,f\d\fd9588ebc3efd54d3889ce3709f499ebdea15cc2
-l
-<src/main/java/javacollections/homworkListaZadan/Zadanie.java,f\a\fa4bc19df2bfd958f7ff49bfe5088e36e3e5aa53
 q
 Asrc/main/java/javacollections/homworkListaZadan/Zrealizowane.java,6\4\640dfa62c287c08cc25e144e6dec0748d175eef5
 f
@@ -55,7 +53,3 @@ q
 Asrc/main/java/javacollections/homework/Zadanie5/MainZadanie5.java,8\0\805edb3335475f1b2fdd9be7c7fa21c7b4e94ed0
 i
 9src/main/java/javacollections/homework/MainHomework6.java,3\9\39d5b85707b39a8b595d1f27f5b73dddaa141f74
-p
-@src/main/java/javacollections/homworkListaZadan/MainZadanie.java,a\b\ab5e587651e8309e1b2fe1b8ec6563878969f626
-~
-Nsrc/main/java/javacollections/homworkListaZadan/ListaZadanDoZrealizowania.java,7\8\78ef01dfc56898ba17ac05311d401439a588bd57

@@ -18,7 +18,6 @@ public class ListaZadanDoZrealizowania {
             }
         }
     }
-
     // dodaj zadanie
     public void dodajZadanie(Zadanie zadanieDoDodania) {
         lista.add(zadanieDoDodania);
@@ -33,7 +32,6 @@ public class ListaZadanDoZrealizowania {
             }
         }
     }
-
     // zwróć zadanie po pełnej nazwie
     public Optional<Zadanie> zwrocZadanaPoPelnejNazwie(String szukanaNazwa) {
         for (Zadanie zadanieNaLiscie : lista) {
@@ -92,6 +90,16 @@ public class ListaZadanDoZrealizowania {
             }
             return listaNiezrealizowanych;
         }
+        // public void usunZadania2(String pelnaNazwa){ zwracamy kilka zadan o tej samej nazwie
+    // Iterator<Zadanie> iterator = lista.iterator();
+    // while(iterator.hasNext()){
+    // Zadanie zadanie = iterator.next();
+    //if(zadanie.getNazwa().equals(pelnaNazwa)){
+    // sout("znaleziono " + zadanie);
+    // iterator.remove();}
+
+    // ewentualnie
+    // for(i=0, i<list.size(), i++)
 
 }
 
